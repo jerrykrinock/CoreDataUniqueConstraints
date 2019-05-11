@@ -7,33 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		92975F551BB3AAE10037CDAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92975F541BB3AAE10037CDAB /* main.m */; };
-		92975F581BB3AAE10037CDAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92975F571BB3AAE10037CDAB /* AppDelegate.m */; };
+		4860759322871C920025F4A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4860759222871C920025F4A8 /* AppDelegate.swift */; };
+		4860759522871F600025F4A8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4860759422871F5F0025F4A8 /* TableViewController.swift */; };
+		48607597228722A20025F4A8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48607596228722A20025F4A8 /* Person.swift */; };
 		92975F5E1BB3AAE10037CDAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92975F5C1BB3AAE10037CDAB /* Main.storyboard */; };
 		92975F611BB3AAE10037CDAB /* CoreDataUniqueConstraints.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92975F5F1BB3AAE10037CDAB /* CoreDataUniqueConstraints.xcdatamodeld */; };
 		92975F631BB3AAE10037CDAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92975F621BB3AAE10037CDAB /* Assets.xcassets */; };
 		92975F661BB3AAE10037CDAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92975F641BB3AAE10037CDAB /* LaunchScreen.storyboard */; };
-		92975F6F1BB3AB180037CDAB /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92975F6E1BB3AB180037CDAB /* TableViewController.m */; settings = {ASSET_TAGS = (); }; };
-		92975F871BB3AE210037CDAB /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 92975F841BB3AE210037CDAB /* Person+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
-		92975F881BB3AE210037CDAB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 92975F861BB3AE210037CDAB /* Person.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4860759222871C920025F4A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4860759422871F5F0025F4A8 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		48607596228722A20025F4A8 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		92975F501BB3AAE10037CDAB /* CoreDataUniqueConstraints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataUniqueConstraints.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		92975F541BB3AAE10037CDAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		92975F561BB3AAE10037CDAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		92975F571BB3AAE10037CDAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		92975F5D1BB3AAE10037CDAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92975F601BB3AAE10037CDAB /* CoreDataUniqueConstraints.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataUniqueConstraints.xcdatamodel; sourceTree = "<group>"; };
 		92975F621BB3AAE10037CDAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92975F651BB3AAE10037CDAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92975F671BB3AAE10037CDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92975F6D1BB3AB180037CDAB /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		92975F6E1BB3AB180037CDAB /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
-		92975F831BB3AE210037CDAB /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
-		92975F841BB3AE210037CDAB /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
-		92975F851BB3AE210037CDAB /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		92975F861BB3AE210037CDAB /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +58,8 @@
 		92975F521BB3AAE10037CDAB /* CoreDataUniqueConstraints */ = {
 			isa = PBXGroup;
 			children = (
-				92975F561BB3AAE10037CDAB /* AppDelegate.h */,
-				92975F571BB3AAE10037CDAB /* AppDelegate.m */,
-				92975F6D1BB3AB180037CDAB /* TableViewController.h */,
-				92975F6E1BB3AB180037CDAB /* TableViewController.m */,
+				4860759222871C920025F4A8 /* AppDelegate.swift */,
+				4860759422871F5F0025F4A8 /* TableViewController.swift */,
 				92975F5C1BB3AAE10037CDAB /* Main.storyboard */,
 				92975F621BB3AAE10037CDAB /* Assets.xcassets */,
 				92975F641BB3AAE10037CDAB /* LaunchScreen.storyboard */,
@@ -83,7 +73,6 @@
 		92975F531BB3AAE10037CDAB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				92975F541BB3AAE10037CDAB /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -91,10 +80,7 @@
 		92975F7C1BB3AD530037CDAB /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
-				92975F831BB3AE210037CDAB /* Person+CoreDataProperties.h */,
-				92975F841BB3AE210037CDAB /* Person+CoreDataProperties.m */,
-				92975F851BB3AE210037CDAB /* Person.h */,
-				92975F861BB3AE210037CDAB /* Person.m */,
+				48607596228722A20025F4A8 /* Person.swift */,
 				92975F5F1BB3AAE10037CDAB /* CoreDataUniqueConstraints.xcdatamodeld */,
 			);
 			name = "Core Data";
@@ -131,6 +117,8 @@
 				TargetAttributes = {
 					92975F4F1BB3AAE10037CDAB = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 4MAMECY9VS;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -139,6 +127,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -170,12 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92975F881BB3AE210037CDAB /* Person.m in Sources */,
 				92975F611BB3AAE10037CDAB /* CoreDataUniqueConstraints.xcdatamodeld in Sources */,
-				92975F581BB3AAE10037CDAB /* AppDelegate.m in Sources */,
-				92975F551BB3AAE10037CDAB /* main.m in Sources */,
-				92975F871BB3AE210037CDAB /* Person+CoreDataProperties.m in Sources */,
-				92975F6F1BB3AB180037CDAB /* TableViewController.m in Sources */,
+				4860759522871F600025F4A8 /* TableViewController.swift in Sources */,
+				4860759322871C920025F4A8 /* AppDelegate.swift in Sources */,
+				48607597228722A20025F4A8 /* Person.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -274,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -285,10 +272,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 4MAMECY9VS;
 				INFOPLIST_FILE = CoreDataUniqueConstraints/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zor.CoreDataUniqueConstraints;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -296,10 +287,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 4MAMECY9VS;
 				INFOPLIST_FILE = CoreDataUniqueConstraints/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zor.CoreDataUniqueConstraints;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -322,6 +316,7 @@
 				92975F6C1BB3AAE10037CDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
