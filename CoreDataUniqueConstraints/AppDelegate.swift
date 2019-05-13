@@ -48,7 +48,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         do {
             try _persistentStoreCoordinator?.addPersistentStore(ofType: NSSQLiteStoreType, configurationName: nil, at: storeURL, options: nil)
         } catch {
-            print("Unresolved error \(error)")
+            print("Unresolved error 1 \(error)")
             abort()
         }
 
@@ -73,7 +73,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 do {
                     try managedObjectContext.save()
                 } catch {
-                    print("Unresolved error \(error)")
+                    print("Unresolved error 2 \(error)")
                     abort()
                 }
             }

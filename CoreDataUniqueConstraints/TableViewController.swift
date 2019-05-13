@@ -26,7 +26,7 @@ class TableViewController: UITableViewController, NSFetchedResultsControllerDele
         do {
             try _fetchedResultsController.performFetch()
         } catch {
-            print("Unresolved error \(error)")
+            print("Unresolved error 3 \(error)")
             abort()
         }
 
@@ -45,7 +45,7 @@ class TableViewController: UITableViewController, NSFetchedResultsControllerDele
         do {
             try context?.save()
         } catch {
-            print("Unresolved error \(error)")
+            print("Unresolved error 4 \(error)")
             abort()
         }
     }
