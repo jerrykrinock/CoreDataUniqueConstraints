@@ -46,7 +46,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         _persistentStoreCoordinator = NSPersistentStoreCoordinator(managedObjectModel: managedObjectModel)
         let storeURL: URL? = applicationDocumentsDirectory()?.appendingPathComponent("CoreDataUniqueConstraints.sqlite")
         do {
+            // Choose to compile with SQLite or In Memory store
+            #if true
             try _persistentStoreCoordinator?.addPersistentStore(ofType: NSSQLiteStoreType, configurationName: nil, at: storeURL, options: nil)
+            #else
+            try _persistentStoreCoordinator?.addPersistentStore(ofType: NSInMemoryStoreType, configurationName: nil, at: nil, options: nil)
+            #endif
         } catch {
             print("Unresolved error 1 \(error)")
             abort()
